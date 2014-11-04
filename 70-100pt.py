@@ -35,7 +35,7 @@ class enemy:
             self.direction = self.origdirection
         
         drawpad.move(self.circle,self.direction,0)
-	drawpad.after(1, self.animate)
+	drawpad.after(10, self.animate)
 # Create your "enemies" here, before the class
 
 
